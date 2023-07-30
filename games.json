@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/image/farcry.png",
+        "logo": "/assets/image/farcry-logo.svg",
+        "alt": "Imagem do jogo Far Cry 6"
+    },
+    {
+        "id": 2,
+        "image": "/assets/image/forzahorizon.png",
+        "logo": "/assets/image/forzahorizon-logo.svg",
+        "alt": "Imagem do jogo Forza Horizon"
+    },
+    {
+        "id": 3,
+        "image": "/assets/image/fifa.png",
+        "logo": "/assets/image/fifa-logo.svg",
+        "alt": "Imagem do jogo FIFA"
+    },
+    {
+        "id": 4,
+        "image": "/assets/image/minecraft.png",
+        "logo": "/assets/image/minecraft-logo.svg",
+        "alt": "Imagem do jogo Minecraft"
+    }
+]
