@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import xboxLogo from '/assets/image/logo-xbox.svg'
+import XboxLogo from "../XboxLogo";
 
 const HeaderStyle = styled.header`
     display: flex;
@@ -37,9 +37,7 @@ const ButtonStyle = styled.button`
 export default function Header () {
     return (
         <HeaderStyle>
-            <div>
-                <a href=""><img src={xboxLogo} alt="Logo do xbox" /></a>
-            </div>
+            <XboxLogo />
             <NavStyle>
                 <ul>
                     <li><a href="">VISÃO GERAL</a></li>
