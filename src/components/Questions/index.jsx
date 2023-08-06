@@ -7,8 +7,12 @@ import styled from 'styled-components';
 import { FaChevronDown } from "react-icons/fa6";
 
 const AccordionContainer = styled.div`
-    max-width: 1110px;
+    max-width: 312px;
     margin: 0 auto;
+    
+    @media(min-width: 1280px) {
+        max-width: 1110px;
+    }
 `;
 
 const BackgroundStyle = styled.div`
@@ -23,11 +27,19 @@ const TextStyle = styled.div`
 
 const FontStyle = styled.span`
     font-family: 'Inter';
-    font-size: 24px;
+    font-size: 14px;
+
+    @media(min-width: 1280px) {
+        font-size: 24px;
+    }
 `
 
 const FontStyleConteudo = styled.span`
-    font-size: 18px;
+    font-size: 12px;
+
+    @media(min-width: 1280px) {
+        font-size: 18px;
+    }
 `;
 
 const BorderStyle = styled.div`
@@ -35,9 +47,14 @@ const BorderStyle = styled.div`
 `;
 
 const TitleStyle = styled.h2`
-    margin: 300px 0 60px 0;
     color: ${({theme}) => theme.colors.white};
-    font-size: 48px;
+    font-size: 24px;
+    margin: 40px 0;
+    
+    @media(min-width: 1280px) {
+        margin: 300px 0 60px 0;
+        font-size: 48px;
+    }
 
     span {
         color: ${({theme}) => theme.colors.brandColor};

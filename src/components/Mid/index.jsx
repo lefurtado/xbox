@@ -6,8 +6,16 @@ const ContainerStyle = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1110px;
-    margin: 300px auto;
+    flex-direction: column;
+    max-width: 312px;
+    margin: auto;
+    gap: 24px;
+    
+    @media(min-width: 1280px) {
+        max-width: 1110px;
+        margin: 300px auto;
+        flex-direction: row;
+    }
 `;
 
 export default function Mid () {

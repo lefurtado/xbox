@@ -3,6 +3,11 @@ import styled from "styled-components"
 
 const CardStyle = styled.div`
     display: flex;
+    flex-direction: column;
+
+    @media(min-width: 1280px) {
+        flex-direction: row;
+    }
 
     div {
         display: flex;

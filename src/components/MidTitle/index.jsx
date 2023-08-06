@@ -3,24 +3,39 @@ import styled from "styled-components"
 const ArticleStyle = styled.article`
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+
+    @media(min-width: 1280px) {
+        text-align: start;
+        margin-top: 0;
+    }
 
     h2 {
-        font-size: 64px;
+        font-size: 24px;
         font-weight: 600;
         color: ${({theme}) => theme.colors.brandColor};
         line-height: 130%;
+
+        @media(min-width: 1280px) {
+            font-size: 64px;
+        }
     }
     .secondary {
         color: white;
     }
 
     p {
-        font-size: 24px;
+        font-size: 14px;
         font-weight: 500;
         max-width: 570px;
         color: ${({theme}) => theme.colors.dark30};
         line-height: 170%;
         margin-top: 40px;
+        
+        @media(min-width: 1280px) {
+            font-size: 24px;
+        }
     }
 `;
 
