@@ -35,7 +35,7 @@ export default function Footer() {
             <XboxLogo />
             <Copyright>
                 <span>
-                    © Microsoft 2022
+                    © Microsoft 2023
                 </span>
                 <span>
                     Todos os direitos reservados
